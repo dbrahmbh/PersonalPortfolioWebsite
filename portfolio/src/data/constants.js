@@ -231,6 +231,15 @@ export const Bio = {
     },
     {
       id: 1,
+      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      school: "Ivy Tech Community College, Sellersburg",
+      date: "August 2016 - May 2020",
+      // grade: "8.71 CGPA",
+      desc: "Throughout my high school years, I concurrently pursued courses at the local community college, earning a college degree prior to my high school graduation!",
+      degree: "Associate of General Studies",
+    },
+    {
+      id: 2,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "New Albany High School",
       date: "August 2016 - May 2020",
