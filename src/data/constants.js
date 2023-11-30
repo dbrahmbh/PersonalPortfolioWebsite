@@ -562,7 +562,7 @@ export const Bio = {
       title: "B-Cubed Cool Math Games Solver",
       date: "March 2022 - April 2022",
       description:
-        "Ever had trouble figuring out how to solve some of the tricky levels in the popular game B-Cubed from Cool Math Games? Well, me and my friends created a program that, given a level input file, reads in the board, finds a path that uses all blocks if possible, and displays the final solution.",
+        "Ever had trouble figuring out how to solve some of the tricky levels in the popular game B-Cubed from Cool Math Games? Well, my friends and I created a program that, given a level input file, reads in the board, finds a path that uses all blocks if possible, and displays the final solution!",
       // image:
       //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
       tags: [
