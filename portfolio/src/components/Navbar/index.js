@@ -1,10 +1,12 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+// import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+// import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+// import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import logoImage from '../../images/icons8-favicon-64.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -13,8 +15,19 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>DEEP B.</Span>
+          <a href='/' 
+          style={{
+            display: "flex", 
+            alignItems: "center", 
+            color: "white", 
+            marginBottom: '20;', 
+            cursor: 'pointer', 
+            textDecoration: 'none', 
+            transition: 'color 0.3s ease', }}
+          onMouseOver={(e) => e.currentTarget.style.color = `${theme.primary}`}
+          onMouseOut={(e) => e.currentTarget.style.color = 'white'}>
+            {/* <DiCssdeck size="3rem" /> <Span>DEEP B.</Span> */}
+            <img src={logoImage} alt='Logo' /> <Span>DEEP B.</Span>
           </a>
         </NavLogo>
         <MobileIcon>
