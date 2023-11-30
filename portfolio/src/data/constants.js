@@ -445,6 +445,43 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Goodwill App Service Project",
+      date: "August 2023 - December 2023",
+      description:
+        "I joined a service project to work on an app meant for the local Goodwill workers to use for social work purposes. When I joined, the app architecture was set up, but the backend was not being queried by the frontend at all. So, my team and I connected the backend to the frontend as well as adding new functional components, such as a map component.",
+      // image:
+      //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      tags: [
+        "React Native",
+        "JavaScript",
+        "Express",
+        "Microsoft Azure",
+        "SQL",
+      ],
+      // category: "web app",
+      github: "https://github.com/shreyakumar-nd/GWNoteApp",
+      // webapp: "https://trackify.duckdns.org",
+    },
+    {
+      id: 1,
+      title: "BetterDocs",
+      date: "June 2023 - July 2023",
+      description:
+        "BetterDocs is an alternative to Google Keep that allows multiple people to take notes together, made with Create-React-App and Parse. Usage details are on GitHub.",
+      // image:
+      //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      tags: [
+        "React",
+        "Parse by Back4App",
+        "JavaScript",
+        "TypeScript",
+      ],
+      // category: "web app",
+      github: "https://github.com/Dblanco-code/BetterDocs",
+      webapp: "https://better-docs-sandy.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Makeshift YouTube Searchbar Website",
       date: "April 2023 - May 2023",
       description:
@@ -464,7 +501,7 @@ export const Bio = {
       // webapp: "https://trackify.duckdns.org",
     },
     {
-      id: 2,
+      id: 3,
       title: "El Campito Website Overhaul",
       date: "January 2023 - May 2023",
       description:
@@ -479,12 +516,12 @@ export const Bio = {
         "Kanban Boards",
       ],
       // category: "web app",
-      github: "https://www.elcampito.org/",
-      // webapp: "https://trackify.duckdns.org",
+      // github: "",
+      webapp: "https://www.elcampito.org/",
     },
     {
-      id: 2,
-      title: "ND Hackathon Group Project",
+      id: 4,
+      title: "ND Hackathon Group Project (Mercury)",
       date: "March 2023 - April 2023",
       description:
         "Mercury aims to provide a simple solution to address management. It works as a link between clients and companies, where the user can update their current address without individually doing it for every single company. For the companies, this provides reliable information on the address of their customers.",
@@ -501,6 +538,40 @@ export const Bio = {
       ],
       // category: "web app",
       github: "https://github.com/dgarci23/mercury",
+      // webapp: "https://trackify.duckdns.org",
+    },
+    {
+      id: 5,
+      title: "Simple File System",
+      date: "January 2023 - May 2023",
+      description:
+        "In this project, my team and I built a Unix-like file system from scratch using a disk emulator.",
+      // image:
+      //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      tags: [
+        "C/C++",
+        "Unix Operating Systems",
+        "Inodes",
+      ],
+      // category: "web app",
+      github: "https://github.com/dbrahmbh/OSDreamTeam/tree/main/Project06",
+      // webapp: "https://trackify.duckdns.org",
+    },
+    {
+      id: 6,
+      title: "B-Cubed Cool Math Games Solver",
+      date: "March 2022 - April 2022",
+      description:
+        "Ever had trouble figuring out how to solve some of the tricky levels in the popular game B-Cubed from Cool Math Games? Well, me and my friends created a program that, given a level input file, reads in the board, finds a path that uses all blocks if possible, and displays the final solution.",
+      // image:
+      //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      tags: [
+        "C/C++",
+        "Data Structures",
+        "Makefile",
+      ],
+      // category: "web app",
+      github: "https://github.com/JeriahM/DataStructuresProject/tree/main",
       // webapp: "https://trackify.duckdns.org",
     },
   ];
