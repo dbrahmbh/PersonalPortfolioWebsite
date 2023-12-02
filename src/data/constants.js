@@ -10,7 +10,7 @@ export const Bio = {
       "I am a senior studying Computer Science at the University of Notre Dame! Over my time at Notre Dame, I have built a strong foundation in many areas of software development - from e-commerce to full-stack development - and have developed an interest in leading the process of leveraging technology to drive business innovation. I look forward to utilizing this technical knowledge and my creative problem-solving abilities to develop innovative solutions in a challenging role in software development, project management, or tech consulting.",
     github: "https://github.com/dbrahmbh",
     resume:
-      "https://drive.google.com/file/d/1Mo33Usr_XtOer1-FwhBF6obPgPlKp823/view?usp=sharing",
+      "https://drive.google.com/file/d/11lSlsspn3UxPdX0-b_RJkON3kyAQ6z_m/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deep-brahmbhatt/",
     insta: "https://www.instagram.com/deep_brah147/",
     facebook: "https://www.facebook.com/profile.php?id=100094190671853",
