@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 60px 30px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -79,7 +79,9 @@ export const HeroRightContainer = styled.div`
   display: flex;
   order: 2;
   justify-content: end;
+  align-items: center; /* Ensures the image is centered vertically */
   gap: 12px;
+
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -95,16 +97,18 @@ export const HeroRightContainer = styled.div`
 export const Img = styled.img`
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 400px;
   max-height: 400px;
-  margin-top: -200px; /* Adjust this value to move the img up or down */
+  margin-top: -50px; /* Adjust or remove this based on your design */
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  object-position: center top;
 
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 100%; /* Adjust to make it more responsive */
+    max-height: 100%;
   }
 
   @media (max-width: 640px) {

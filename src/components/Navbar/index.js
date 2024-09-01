@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
-import logoImage from '../../images/icons8-favicon-64.png';
+import logoImage from '../../images/deep-learning.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -27,7 +27,12 @@ const Navbar = () => {
           onMouseOver={(e) => e.currentTarget.style.color = `${theme.primary}`}
           onMouseOut={(e) => e.currentTarget.style.color = 'white'}>
             {/* <DiCssdeck size="3rem" /> <Span>DEEP B.</Span> */}
-            <img src={logoImage} alt='Logo' /> <Span>DEEP B.</Span>
+            <img src={logoImage} alt='Logo' 
+            style={{
+              width: '50px',     // Set the desired width
+              height: 'auto',    // Set height to auto to maintain aspect ratio
+              objectFit: 'contain' // Ensures the image doesn't stretch
+            }}/> <Span>DEEP B.</Span>
           </a>
         </NavLogo>
         <MobileIcon>
