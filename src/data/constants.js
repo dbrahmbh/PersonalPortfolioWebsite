@@ -2,12 +2,12 @@ export const Bio = {
     name: "Deep Brahmbhatt",
     roles: [
       "Full-Stack Developer",
-      "Software Engineer",
-      "Team Player",
-      "Programmer"
+      "Product Manager",
+      "Entrepreneur",
+      "Student"
     ],
     description:
-      "I am a senior studying Computer Science at the University of Notre Dame! Over my time at Notre Dame, I have built a strong foundation in many areas of software development - from e-commerce to full-stack development - and have developed an interest in leading the process of leveraging technology to drive business innovation. I look forward to utilizing this technical knowledge and my creative problem-solving abilities to develop innovative solutions in a challenging role in software development, project management, or tech consulting.",
+      "I'm an M.S. candidate in Notre Dame's ESTEEM program, where I'm developing my skills in commercialization and product management. I recently graduated with a degree in Computer Science, which gave me a solid foundation in software development across various domains. My passion is using technology to drive business innovation, especially in healthtech. Through my capstone project, I’m gaining practical experience in this area. Ultimately, I aim to become a healthtech entrepreneur and create meaningful impact.",
     github: "https://github.com/dbrahmbh",
     resume:
       "https://drive.google.com/file/d/11lSlsspn3UxPdX0-b_RJkON3kyAQ6z_m/view?usp=sharing",
@@ -126,6 +126,21 @@ export const Bio = {
     {
       id: 0,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+      role: "Graduate AI Solution Architect",
+      company: "SeneGence International",
+      date: "July 2024 - May 2025",
+      desc: "Developing an AI Sales Director—an AI-powered CRM/LMS tool to boost distributor effectiveness and streamline onboarding for SeneGence. This project involves reviewing current practices, analyzing AI/CRM/LMS tools, and creating a prototype and implementation strategy for SeneGence.",
+      skills: [
+        "Python",
+        "Google Ads API",
+        "YouTube API",
+        "Github",
+      ],
+      // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    },
+    {
+      id: 1,
+      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
       role: "Software Development Intern",
       company: "Austin Becker E-Commerce Marketing",
       date: "June 2023 - August 2023",
@@ -139,7 +154,7 @@ export const Bio = {
       // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
-      id: 0,
+      id: 2,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
       role: "Software Developer",
       company: "Wail Of A Tale",
@@ -223,14 +238,23 @@ export const Bio = {
     {
       id: 0,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "University of Notre Dame",
-      date: "August 2020 - May 2024",
+      school: "University of Notre Dame ESTEEM Graduate Program",
+      date: "June 2024 - May 2025",
       // grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at the University of Notre Dame. I have taken relevant courses in Data Structures/Algorithms, Modern Web Development, Systems Programming, and Operating System Principles during my time here. Honors Awarded: Lilly Endowment Community Scholarship.",
-      degree: "Bachelor of Science in Computer Science",
+      desc: "I am pursuing a Master's degree in STEM Entrepreneurship at the University of Notre Dame. My passion for leveraging technology to drive business innovation led me to the ESTEEM program, where I am cultivating my skills in commercialization and product management. Through my capstone project with SeneGence, I am gaining hands-on experience applying these principles.",
+      degree: "Master of Science in Engineering, Science, and Technology Entrepreneurship",
     },
     {
       id: 1,
+      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      school: "University of Notre Dame",
+      date: "August 2020 - May 2024",
+      // grade: "8.71 CGPA",
+      desc: "I received a Bachelor's degree in Computer Science and Engineering at the University of Notre Dame. I took relevant courses in Data Structures/Algorithms, Modern Web Development, Systems Programming, and Operating System Principles during undergrad. Honors Awarded: Lilly Endowment Community Scholarship.",
+      degree: "Bachelor of Science in Computer Science",
+    },
+    {
+      id: 2,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Ivy Tech Community College, Sellersburg",
       date: "August 2016 - May 2020",
@@ -239,7 +263,7 @@ export const Bio = {
       degree: "Associate of General Studies",
     },
     {
-      id: 2,
+      id: 3,
       // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "New Albany High School",
       date: "August 2016 - May 2020",
