@@ -10,7 +10,7 @@ export const Bio = {
       "I'm an M.S. candidate in Notre Dame's ESTEEM program, where I'm developing my skills in commercialization and product management. I recently graduated with a degree in Computer Science, which gave me a solid foundation in software development across various domains. My passion is using technology to drive business innovation, especially in healthtech. Through my capstone project, I’m gaining practical experience in this area. Ultimately, I aim to become a healthtech entrepreneur and create meaningful impact.",
     github: "https://github.com/dbrahmbh",
     resume:
-      "https://drive.google.com/file/d/11lSlsspn3UxPdX0-b_RJkON3kyAQ6z_m/view?usp=sharing",
+      "https://drive.google.com/file/d/1xQUBSlWlH6-gd2qVSXxqO9fOR0iWwBwL/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deep-brahmbhatt/",
     insta: "https://www.instagram.com/deep_brah147/",
     facebook: "https://www.facebook.com/profile.php?id=100094190671853",
@@ -131,10 +131,9 @@ export const Bio = {
       date: "July 2024 - May 2025",
       desc: "Developing an AI Sales Director—an AI-powered CRM/LMS tool to boost distributor effectiveness and streamline onboarding for SeneGence. This project involves reviewing current practices, analyzing AI/CRM/LMS tools, and creating a prototype and implementation strategy for SeneGence.",
       skills: [
-        "Python",
-        "Google Ads API",
-        "YouTube API",
-        "Github",
+        "AI",
+        "Product Management",
+        "Tech Commercialization",
       ],
       // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
